@@ -1,1 +1,1 @@
-<?php include_once("SydneyKurtz/index.html"); ?> 
+<?php include_once("index.html"); ?> 
