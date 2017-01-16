@@ -29,6 +29,7 @@ iframe {
     border: 0;
 }
 
+
 .disable-hover {
     pointer-events: none;
 }
@@ -1632,14 +1633,22 @@ ul.page-numbers > li > span:hover {
 }
 
 .split-image {
-    display: none;
-    background-position: 50% 0;
-    background-color: #222222;
+background-size: contain;
+background-image: url('assets/images/aboutme.jpg');
+display: none;
+}
+
+.split-image:hover {
+    background-image: url('assets/images/aboutmecolor.JPG');
+    display: block;
+    background-position: 0px 0px;
+   
 }
 
 .split-content {
     padding: 100px 40px 0;
     padding: 70px 40px 0;
+    background-position: 20px 0px;
 }
 
 @media (min-width: 992px) {
