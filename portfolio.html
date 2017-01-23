@@ -1,205 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>SK - Web Development</title>
-        <!-- Favicons-->
-        <link rel="shortcut icon" href="assets/images/SK_trans.png" type="image/x-icon">
-       
-        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-        <!-- Web Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Suranna" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-        <!-- Bootstrap core CSS-->
-        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Icon Fonts-->
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/css/themify-icons.css" rel="stylesheet">
-        <!-- Plugins-->
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
-        <link href="assets/css/vertical.min.css" rel="stylesheet">
-        <!-- Template core CSS-->
-        <link href="assets/css/template.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
-    </head>
-    <script type="text/javascript">
-            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/jacekjeznach.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.6"}};
-            !function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-        </script>
-    <body>
-        <!-- Preloader-->
-        <div class="page-loader">
-            <div class="loader">Loading...</div>
-        </div>
-        <!-- Preloader end-->
-        <!-- Show menu-->
-        <div class="show-menu-btn">
-			<span></span>
-			<span></span>
-			<span></span>
-        </div>
-        <!-- Show menu end-->
-        <!-- Menu-->
-        <div class="overlay-menu">
-            <div class="menu-table">
-                <div class="menu-table-cell">
-                    <ul class="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li><!-- 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SK - Web Development</title>
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="assets/images/SK_trans.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+    <!-- Web Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Suranna" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS-->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icon Fonts-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+    <!-- Plugins-->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/vertical.min.css" rel="stylesheet">
+    <!-- Template core CSS-->
+    <link href="assets/css/template.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+</head>
+<script type="text/javascript">
+window._wpemojiSettings = {
+    "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/72x72\/",
+    "ext": ".png",
+    "source": {
+        "concatemoji": "https:\/\/jacekjeznach.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.6"
+    }
+};
+! function(a, b, c) {
+    function d(a) {
+        var c, d, e, f = b.createElement("canvas"),
+            g = f.getContext && f.getContext("2d"),
+            h = String.fromCharCode;
+        return g && g.fillText ? (g.textBaseline = "top", g.font = "600 32px Arial", "flag" === a ? (g.fillText(h(55356, 56806, 55356, 56826), 0, 0), f.toDataURL().length > 3e3) : "diversity" === a ? (g.fillText(h(55356, 57221), 0, 0), c = g.getImageData(16, 16, 1, 1).data, g.fillText(h(55356, 57221, 55356, 57343), 0, 0), c = g.getImageData(16, 16, 1, 1).data, e = c[0] + "," + c[1] + "," + c[2] + "," + c[3], d !== e) : ("simple" === a ? g.fillText(h(55357, 56835), 0, 0) : g.fillText(h(55356, 57135), 0, 0), 0 !== g.getImageData(16, 16, 1, 1).data[0])) : !1
+    }
+
+    function e(a) {
+        var c = b.createElement("script");
+        c.src = a, c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+    }
+    var f, g;
+    c.supports = {
+        simple: d("simple"),
+        flag: d("flag"),
+        unicode8: d("unicode8"),
+        diversity: d("diversity")
+    }, c.DOMReady = !1, c.readyCallback = function() {
+        c.DOMReady = !0
+    }, c.supports.simple && c.supports.flag && c.supports.unicode8 && c.supports.diversity || (g = function() {
+        c.readyCallback()
+    }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function() {
+        "complete" === b.readyState && c.readyCallback()
+    })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+}(window, document, window._wpemojiSettings);
+</script>
+
+<body>
+    <!-- Preloader-->
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
+    </div>
+    <!-- Preloader end-->
+    <!-- Show menu-->
+    <div class="show-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Show menu end-->
+    <!-- Menu-->
+    <div class="overlay-menu">
+        <div class="menu-table">
+            <div class="menu-table-cell">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--   <li><a href="skills.html">Skills</a></li> -->
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <!-- 
                         <li><a href="shortcodes.html">Shortcodes</a></li> -->
-                     <!--    <li class="menu-item-has-children"><a href="index.html">Submenu</a>
+                    <!--    <li class="menu-item-has-children"><a href="index.html">Submenu</a>
                             <ul class="sub-menu">
                                 <li><a href="#">Item 1</a></li>
                                 <li><a href="#">Item 2</a></li>
                                 <li><a href="#">Item 3</a></li>
                                 <li><a href="#">Item 4</a></li>
                             </ul> -->
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- Menu end-->
-        <div class="wrapper">
-            <!-- Hero section--><!-- 
+    </div>
+    <!-- Menu end-->
+    <div class="wrapper">
+        <!-- Hero section-->
+        <!-- 
             <section class="split-image parallax" data-background="assets/images/module-9.jpg"></section> -->
-            <!-- Hero section end-->
-            <!-- Content section--><!-- 
+        <!-- Hero section end-->
+        <!-- Content section-->
+        <!-- 
             <section class="split-content">
-                Page content--> 
-                <section class="module">
-                    <div class="container-fluid container-custom">
-                        <!-- Page title-->
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="page-header">
-                                    <h1>Latest Works & Projects.</h1>
-                                    <p>My projects consist of both front-end and back-end development technologies. This includes HTML, CSS, JavaScript, jQuery, MySQL, Firebase, Responsive Design, Bootstrap, Node.js, React.js, MongoDB, Heroku and User Authentication. For more of my work, please visit my <a href="https://github.com/skurtz92">GitHub <i class="fa fa-github fa-1x"></i></a>.</p>
-                                </div>
-                            </div>
+                Page content-->
+        <section class="module">
+            <div class="container-fluid container-custom">
+                <!-- Page title-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-header">
+                            <h1>Latest Works & Projects.</h1>
+                            <p>My projects consist of both front-end and back-end development technologies. This includes HTML, CSS, JavaScript, jQuery, MySQL, Firebase, Responsive Design, Bootstrap, Node.js, React.js, MongoDB, Heroku and User Authentication. For more of my work, please visit my <a href="https://github.com/skurtz92">GitHub <i class="fa fa-github fa-1x"></i></a>.</p>
                         </div>
-                        <!-- Page title end-->
-                        <!-- Portfolio filter-->
-                        <div class="row">
-                            <div class="col-sm-12">
-                               <!--  <ul class="filters" id="filters">
+                    </div>
+                </div>
+                <!-- Page title end-->
+                <!-- Portfolio filter-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!--  <ul class="filters" id="filters">
                                     <li><a class="current" href="#" data-filter="*">Show All</a></li>
                                     <li><a href="#" data-filter=".brand">Brand</a></li>
                                     <li><a href="#" data-filter=".design">Design</a></li>
                                     <li><a href="#" data-filter=".motion">Motion</a></li>
                                     <li><a href="#" data-filter=".printing">Printing</a></li>
                                 </ul> -->
+                    </div>
+                </div>
+                <!-- Portfolio filter end-->
+                <!-- Portfolio-->
+                <div class="row-portfolio">
+                    <!-- Portfolio image-->
+                    <div class="portfolio-item brand">
+                        <div class="portfolio-wrapper"><img src="assets/images/blue.jpg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">SmithCo Flooring LLC Website - Coming Soon*</h6><span class="portfolio-subtitle">Designed for SmithCo Flooring located in Dallas, TX. Utilizes JavaScript, jQuery, CSS/HTML, & Google Maps API </span>
                             </div>
                         </div>
-                        <!-- Portfolio filter end-->
-                        <!-- Portfolio-->
-                        <div class="row-portfolio">
-                            <!-- Portfolio image-->
-                            <div class="portfolio-item brand">
-                                <div class="portfolio-wrapper"><img src="assets/images/blue.jpg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">SmithCo Flooring LLC Website</h6><span class="portfolio-subtitle">Designed for SmithCo Flooring located in Dallas, TX. Utilizes JavaScript, jQuery, CSS/HTML, & Google Maps API </span>
-                                    </div>
-                                </div><a class="portfolio-link lightbox" href="assets/images/portfolio/s-1.jpg"></a>
+                        <a class="portfolio-link lightbox" href="assets/images/portfolio/s-1.jpg"></a>
+                    </div>
+                    <!-- Portfolio image end-->
+                    <!-- Portfolio vimeo-->
+                    <div class="portfolio-item design">
+                        <div class="portfolio-wrapper"><img src="assets/images/proj1.jpg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">"Foogle"</h6><span class="portfolio-subtitle">"Furniture Google" - made for the Texas Office Products & Supply in Austin, TX. Utilizes MySQL database, Sequelize ORM, Handlebars.js, Node.js and Express</span>
                             </div>
-                            <!-- Portfolio image end-->
-                            <!-- Portfolio vimeo-->
-                            <div class="portfolio-item design">
-                                <div class="portfolio-wrapper"><img src="assets/images/proj1.jpg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">"Foogle"</h6><span class="portfolio-subtitle">"Furniture Google" - made for the Texas Office Products & Supply in Austin, TX. Utilizes MySQL database, Sequelize ORM, Handlebars.js, Node.js and Express</span>
-                                    </div>
-                                </div><a class="portfolio-link" href="https://sleepy-eyrie-41006.herokuapp.com/"></a>
+                        </div>
+                        <a class="portfolio-link" href="https://sleepy-eyrie-41006.herokuapp.com/"></a>
+                    </div>
+                    <!-- Portfolio vimeo end-->
+                    <!-- Portfolio youtube-->
+                    <div class="portfolio-item motion printing">
+                        <div class="portfolio-wrapper"><img src="assets/images/bradley.jpeg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">"Furniture Scheduler"</h6><span class="portfolio-subtitle">Full-Stack Web App designed to organize & facilitate deliveries for the Texas Office Products & Supply Company in Austin, Texas. Utilizes JavaScript, jQuery, Google Maps API, OpenWeatherMap API, FullCalendar and Firebase for persistent data storage</span>
                             </div>
-                            <!-- Portfolio vimeo end-->
-                            <!-- Portfolio youtube-->
-                            <div class="portfolio-item motion printing">
-                                <div class="portfolio-wrapper"><img src="assets/images/bradley.jpeg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">"Furniture Scheduler"</h6><span class="portfolio-subtitle">Full-Stack Web App designed to organize & facilitate deliveries for the Texas Office Products & Supply Company in Austin, Texas. Utilizes JavaScript, jQuery, Google Maps API, OpenWeatherMap API, FullCalendar and Firebase for persistent data storage</span>
-                                    </div>
-                                </div><a class="portfolio-link" href="http://www.topstexas-schedule.com/"></a>
+                        </div>
+                        <a class="portfolio-link" href="http://www.topstexas-schedule.com/"></a>
+                    </div>
+                    <!-- Portfolio youtube end-->
+                    <!-- Portfolio single page-->
+                    <div class="portfolio-item printing design motion">
+                        <div class="portfolio-wrapper"><img src="assets/images/red.jpg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">"Train Schedule"</h6><span class="portfolio-subtitle">A train schedule app that incorporates Firebase to host arrival & departure data. Retrieves and manipulates information with Moment.js. </span>
                             </div>
-                            <!-- Portfolio youtube end-->
-                            <!-- Portfolio single page-->
-                            <div class="portfolio-item printing design motion">
-                                <div class="portfolio-wrapper"><img src="assets/images/red.jpg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">"Train Schedule"</h6><span class="portfolio-subtitle">A train schedule app that incorporates Firebase to host arrival & departure data. Retrieves and manipulates information with Moment.js. </span>
-                                    </div>
-                                </div><a class="portfolio-link" href="https://tranquil-garden-18407.herokuapp.com/"></a>
-                                <!-- WHAT YOU NEED FOR ALL PROJECTS! -->
+                        </div>
+                        <a class="portfolio-link" href="https://tranquil-garden-18407.herokuapp.com/"></a>
+                        <!-- WHAT YOU NEED FOR ALL PROJECTS! -->
+                    </div>
+                    <!-- Portfolio single end-->
+                    <!-- Portfolio image-->
+                    <div class="portfolio-item brand printing">
+                        <div class="portfolio-wrapper"><img src="assets/images/giraffe.jpg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">Food Frenzy Memes!</h6><span class="portfolio-subtitle">This project populates GIFS of your choice. It utilizes GIPHY API, JavaScript, and jQuery.</span>
                             </div>
-                            <!-- Portfolio single end-->
-                            <!-- Portfolio image-->
-                            <div class="portfolio-item brand printing">
-                                <div class="portfolio-wrapper"><img src="assets/images/giraffe.jpg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">Food Frenzy Memes!</h6><span class="portfolio-subtitle">This project populates GIFS of your choice. It utilizes GIPHY API, JavaScript, and jQuery.</span>
-                                    </div>
-                              <!--   </div><a class="portfolio-link lightbox" href="https://nameless-peak-17963.herokuapp.com/"></a>
+                            <!--   </div><a class="portfolio-link lightbox" href="https://nameless-peak-17963.herokuapp.com/"></a>
                             </div> -->
-                            </div><a class="portfolio-link lightbox-video" href="https://nameless-peak-17963.herokuapp.com/"></a>
+                        </div>
+                        <a class="portfolio-link lightbox-video" href="https://nameless-peak-17963.herokuapp.com/"></a>
+                    </div>
+                    <!-- Portfolio image end-->
+                    <!-- Portfolio image-->
+                    <div class="portfolio-item brand motion design">
+                        <div class="portfolio-wrapper"><img src="assets/images/marilyn.jpg" alt="">
+                            <div class="portfolio-overlay"></div>
+                            <div class="portfolio-caption">
+                                <h6 class="portfolio-title">"Cats Collector"</h6><span class="portfolio-subtitle">This gaming app dynamically updates HTML pages with a jQuery library</span>
                             </div>
-                            <!-- Portfolio image end-->
-                            <!-- Portfolio image-->
-                            <div class="portfolio-item brand motion design">
-                                <div class="portfolio-wrapper"><img src="assets/images/marilyn.jpg" alt="">
-                                    <div class="portfolio-overlay"></div>
-                                    <div class="portfolio-caption">
-                                        <h6 class="portfolio-title">"Cats Collector"</h6><span class="portfolio-subtitle">This gaming app dynamically updates HTML pages with a jQuery library</span>
-                                    </div>
-                                </div><a class="portfolio-link lightbox-video" href="https://cats-collector.herokuapp.com/"></a>
-                            </div>
+                        </div>
+                        <a class="portfolio-link lightbox-video" href="https://cats-collector.herokuapp.com/"></a>
+                    </div>
+                    <!-- Portfolio image end-->
+                </div>
+                <!-- Portfolio end-->
+            </div>
+        </section>
+        <!-- Page content-->
+        <!-- Footer-->
+        <footer class="footer">
+            <div class="container-fluid container-custom">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>© 2017 Sydney Kurtz</p>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="social-list">
+                            <li><a href="https://github.com/skurtz92"><i class="fa fa-github"></i></a></li>
+                            <li><a href="http://stackoverflow.com/users/7419222/sydney-elizabeth?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+                            <li><a href="https://www.instagram.com/syd.kurtz/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sydkurtz"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end-->
+        </section>
+        <!-- Content section end-->
+    </div>
+    <!-- Scripts-->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/custom.min.js"></script>
+    <!-- Color Switcher (Remove these lines)-->
+    <!--    <script src="assets/js/style-switcher.min.js"></script> -->
+</body>
 
-                            <!-- Portfolio image end-->
-                        </div>
-                        <!-- Portfolio end-->
-                    </div>
-                </section>
-                <!-- Page content-->
-                <!-- Footer-->
-                <footer class="footer">
-                    <div class="container-fluid container-custom">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <p>© 2017 Sydney Kurtz</p>
-                            </div>
-                            <div class="col-md-5">
-                                <ul class="social-list">
-                                    <li><a href="https://github.com/skurtz92"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="http://stackoverflow.com/users/7419222/sydney-elizabeth?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
-                                    <li><a href="https://www.instagram.com/syd.kurtz/"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/sydkurtz"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-                <!-- Footer end-->
-            </section>
-            <!-- Content section end-->
-        </div>
-        <!-- Scripts-->
-        <script src="assets/js/jquery-2.2.4.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>
-        <script src="assets/js/plugins.min.js"></script>
-        <script src="assets/js/custom.min.js"></script>
-        <!-- Color Switcher (Remove these lines)-->
-     <!--    <script src="assets/js/style-switcher.min.js"></script> -->
-    </body>
 </html>
