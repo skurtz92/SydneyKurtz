@@ -75,3 +75,8 @@ h3 {
 .hvr-grow:hover {
     color: #2481c0;
 }
+
+.fa:hover {
+    color: #f71ba2;
+}
+
