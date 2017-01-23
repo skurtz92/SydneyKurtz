@@ -13,7 +13,7 @@
 	color: white;
 }
 
-h1, h2, h3{
+h1, h2, h3, .hvr-grow{
 	text-align: center;
 	left: 0;
 	
@@ -25,20 +25,20 @@ h1, h2, h3{
 
 }
 
-h1 {
+/*h1 {
 	font-family: 'Kristi', cursive;
     font-size: 80px;
   	left: 0;
     /*line-height: 200px;*/
-    margin: auto;
+ /*   margin: auto;
     margin-top: -200px;
     position: absolute;
     top: 50%;
-    width: 100%;
+    width: 100%;*/
   /*  color: #4f6975;*/
-  color: #282828;
+ /* color: #282828;*/
  
-}
+/*}*/
 
 
 
@@ -54,4 +54,16 @@ h3 {
   }
 
 
-
+.hvr-grow {
+    font-family: 'Kristi', cursive;
+    font-size: 80px;
+    left: 0;
+    /*line-height: 200px;*/
+    margin: auto;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  /*  color: #4f6975;*/
+  color: #282828;
+}
