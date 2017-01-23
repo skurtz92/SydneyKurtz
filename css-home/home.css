@@ -9,6 +9,10 @@
 	text-align: center;
 }
 
+.shake-slow:hover {
+    background-color: #f45f09;
+}
+
 .nav-wrapper {
 	color: white;
 }
@@ -66,4 +70,8 @@ h3 {
     width: 100%;
   /*  color: #4f6975;*/
   color: #282828;
+}
+
+.hvr-grow:hover {
+    color: #2481c0;
 }
