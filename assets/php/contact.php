@@ -1,7 +1,7 @@
 <?php
 
 	// Mail settings
-	$to      = "sydneykurtz.e@gmail.com";
+	$to      = "web-master72@yandex.ru";
 	$subject = "Node Contact Form";
 
 	// You can put here your email
