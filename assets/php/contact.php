@@ -4,7 +4,7 @@
 	$to      = "web-master72@yandex.ru";
 	$subject = "Node Contact Form";
 
-	// You can put here your email
+	// 
 	$header = "From: sydneykurtz.e@gmail.com\r\n";
 	$header.= "MIME-Version: 1.0\r\n";
 	$header.= "Content-Type: text/plain; charset=utf-8\r\n";
