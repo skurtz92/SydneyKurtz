@@ -59,12 +59,12 @@ h3 {
 
 
 .hvr-grow {
-    font-family: 'Kristi', cursive;
-    font-size: 80px;
+    font-family: 'Give You Glory', cursive;
+    font-size: 60px;
     left: 0;
     /*line-height: 200px;*/
     margin: auto;
-    margin-top: -200px;
+    margin-top: -150px;
     position: absolute;
     top: 50%;
     width: 100%;
@@ -79,4 +79,7 @@ h3 {
 .fa:hover {
     color: #f71ba2;
 }
+
+
+
 
